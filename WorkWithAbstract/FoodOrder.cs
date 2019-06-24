@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace WorkWithAbstract
 {
+    /*foodorder class inherite abstract class and implement the object*/
     public class FoodOrder : OrderAbstraction
     {
         public override Order CreateOrder(Order order)
